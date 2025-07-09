@@ -3,6 +3,10 @@
     margin: 0 px;
 }
 
+body{
+    background-color: rgb(2, 1, 47)
+}
+
 .ul1{
     display: flex;
 }
@@ -10,11 +14,13 @@
 .list{
     list-style: none;
     margin-left: 700px;
+    color: white;
 }
 
 .list1{
     list-style: none;
     margin-left: 50px;
+    color: white;
 }
 
 .img2{
@@ -23,4 +29,12 @@
     margin-top: 50px;
     border-radius: 50px;
 }
+
+.img1{
+    margin-left: 50px;
+    width: 90px;
+    height: 70px;
+}
+
+
 
