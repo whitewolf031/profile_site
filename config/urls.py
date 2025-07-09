@@ -3,11 +3,11 @@ from django.contrib import admin
 from django.urls import path
 from config import settings
 from core import views
+from core.views import InfoUser
+from core.urls import urlpatterns as core_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='home')
 ]
 
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += core_urls

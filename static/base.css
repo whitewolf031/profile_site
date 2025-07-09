@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0 px;
+}
+
+.ul1{
+    display: flex;
+}
+
+.list{
+    list-style: none;
+    margin-left: 700px;
+}
+
+.list1{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.img2{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
