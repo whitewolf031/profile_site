@@ -13,7 +13,7 @@ body{
 
 .list{
     list-style: none;
-    margin-left: 700px;
+    margin-left: 660px;
     color: white;
 }
 
@@ -31,10 +31,23 @@ body{
 }
 
 .img1{
-    margin-left: 50px;
+    margin-left: 60px;
     width: 90px;
     height: 70px;
+    border-radius: 25px;
 }
-
-
-
+.footer{
+    color: white;
+    text-align: center;
+    display: flex;
+    margin-left: 200px;
+}
+.footer02{
+    margin-left: 295px;
+}
+.footer03{
+    margin-left: 260px;
+}
+.footer04{
+    margin-left: 295px;
+}
