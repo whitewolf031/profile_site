@@ -13,7 +13,7 @@ body{
 
 .list{
     list-style: none;
-    margin-left: 700px;
+    margin-left: 660px;
     color: white;
 }
 
@@ -31,10 +31,15 @@ body{
 }
 
 .img1{
-    margin-left: 50px;
+    margin-left: 60px;
     width: 90px;
     height: 70px;
+    border-radius: 25px;
 }
 
-
+.fa-instagram{
+    color:white ;
+    width: 40px;
+    height: 40px;
+}
 
