@@ -36,18 +36,10 @@ body{
     height: 70px;
     border-radius: 25px;
 }
-.footer{
-    color: white;
-    text-align: center;
-    display: flex;
-    margin-left: 200px;
+
+.fa-instagram{
+    color:white ;
+    width: 40px;
+    height: 40px;
 }
-.footer02{
-    margin-left: 295px;
-}
-.footer03{
-    margin-left: 260px;
-}
-.footer04{
-    margin-left: 295px;
-}
+
