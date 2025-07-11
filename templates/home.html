@@ -10,83 +10,68 @@
     <link rel="stylesheet" href="../static/base.css">
 </head>
 <body>
-    <header class="container" style="margin-top: 30px;">
-        <nav class="row" id="navbar">
-                <img class="img1" src="./images/IMG_1413.JPG" alt="png" >
-            <div class="col-4">
-                <ul class="ul1">
-                    <li class="list">Home</li>
-                    <li class="list1">About</li>
-                    <li class="list1">Projects</li>
-                    <li class="list1">Contact</li>
-                </ul>
-            </div>
-        </nav>
-        <div class="row">
-            <div class="col-5"><img style="margin-left: 50px;" class="img2" src="./images/IMG_1413.JPG"></div>
-            <div class="col-5" style="margin-top: 50px; margin-left: 100px;">
-                <h1 class="title_text" style="color: white;">About him</h1>
-                <p class="info_text" style="color: white;">5 yilik tajribaga ega kibrxafsizlikda ishlidi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, asperiores. Consequatur quaerat maiores dicta, cupiditate aspernatur commodi ratione assumenda asperiores unde id eveniet nesciunt earum eaque fuga! Praesentium ipsum, veritatis totam cupiditate est, ea tenetur neque minus nemo iure error aut, perspiciatis assumenda illum mollitia eius quod molestias fugit quibusdam.</p>
-            </div>
-        </div>
-    </header>
-    <section class="container">
-        <div class="row" style="margin-top: 50px;">
-            <div class="col-5" style="margin-top: 50px; margin-left: 60px;">
-                <h1 class="title_text" style="color: white;">About him</h1>
-                <p class="info_text" style="color: white;">5 yilik tajribaga ega kibrxafsizlikda ishlidi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, asperiores. Consequatur quaerat maiores dicta, cupiditate aspernatur commodi ratione assumenda asperiores unde id eveniet nesciunt earum eaque fuga! Praesentium ipsum, veritatis totam cupiditate est, ea tenetur neque minus nemo iure error aut, perspiciatis assumenda illum mollitia eius quod molestias fugit quibusdam.</p>
-            </div>
-            <div class="col-5"><img class="img2" style="margin-top: 50px; margin-left: 90px;" src="./images/IMG_1413.JPG"></div>
-        </div>
-        <div class="row" style="margin-top: 50px;">
-            <div class="col-5"><img class="img2" style="margin-left: 50px;" src="./images/IMG_1413.JPG"></div>
-            <div class="col-5" style="margin-top: 50px; margin-left: 100px;">
-                <h1 class="title_text" style="color: white;">About him</h1>
-                <p class="info_text" style="color: white;">5 yilik tajribaga ega kibrxafsizlikda ishlidi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, asperiores. Consequatur quaerat maiores dicta, cupiditate aspernatur commodi ratione assumenda asperiores unde id eveniet nesciunt earum eaque fuga! Praesentium ipsum, veritatis totam cupiditate est, ea tenetur neque minus nemo iure error aut, perspiciatis assumenda illum mollitia eius quod molestias fugit quibusdam.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12" style="display: flex; margin-top: 100px;">
-                <div class="box" style="margin-left: 90px;text-align: center ;">
-                    <img style="width: 300px; height: 300px; border-radius: 25px;" src="./images/IMG_1413.JPG" alt="">
-                    <h1 style="color: white; margin-top: 15px;">Projects</h1>
-                </div>
-                <div class="box1" style="margin-left: 80px; text-align: center ">
-                    <img style="width: 300px; height: 300px;border-radius: 25px;" src="./images/IMG_1413.JPG" alt="">
-                    <h1 style="color: white;  margin-top: 15px; ">About</h1>
-                </div>
-                <div class="box2" style="margin-left: 80px; text-align: center ">
-                    <img style="width: 300px; height: 300px; border-radius: 25px" src="./images/IMG_1413.JPG" alt="">
-                    <h1 style="color: white;  margin-top: 15px; ">Rezume</h1>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="contact-container">
-                <h1>Contact <span>Me!</span></h1>
-                <form>
-                <div class="form-row">
-                    <input type="text" placeholder="Full Name" required>
-                    <input type="email" placeholder="Email Address" required>
-                </div>
-                <div class="form-row">
-                    <input type="text" placeholder="Phone Number">
-                    <input type="text" placeholder="Subject">
-                </div>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <footer class="container" id="footer" style="background-color: rgb(2, 1, 47);">
-        <div class="row">
-            <div class="col-5" style="margin-left: 80px; margin-top: 100px;">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-telegram"></i>
-                <h4></h4>
-            </div>
-        </div>
-    </footer>
+    <nav id="home">
+    <img src="./images/IMG_1413.JPG" alt="Logo" />
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#team">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="team-section" id="About">
+    <div class="profile-card">
+      <img src="./images/cybersecurity.jpg" alt="John" />
+      <h3>John Doe</h3>
+      <p>Cybersecurity Expert</p>
+    </div>
+    <div class="profile-card">
+      <img src="./images/22f4ae8c-ac82-4727-8b5c-65359f49c95a.png" alt="Alice" />
+      <h3>Alice Smith</h3>
+      <p>Frontend Developer</p>
+    </div>
+    <div class="profile-card">
+      <img src="./images/cf49dada-4a63-4c61-a0da-1046c06c8a80.png" alt="Bob" />
+      <h3>Bob Johnson</h3>
+      <p>Data Engineer</p>
+    </div>
+  </section>
+
+  <section class="about-section container" id="team">
+    <img src="./images/IMG_1413.JPG" alt="About Image" />
+    <div class="text">
+      <h1>About John</h1>
+      <p>5 yillik tajribaga ega kiberxavfsizlik mutaxassisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, ratione? Cupiditate aspernatur unde id, illum explicabo veniam excepturi voluptate quisquam!</p>
+    </div>
+  </section>
+
+  <section class="contact-container" id="contact">
+    <h1>Contact <span>Me!</span></h1>
+    <form>
+      <div class="form-row">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+      </div>
+      <div class="form-row">
+        <input type="text" placeholder="Phone Number" />
+        <input type="text" placeholder="Subject" />
+      </div>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <div>
+        <a href="https://www.instagram.com/blackspace.tm?igsh=ZHEyd3Rsd28wYW92" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+        </a>      
+        <i class="fa-brands fa-telegram"></i>
+    </div>
+    <p style="margin-top: 20px;">&copy; phone number: +998998312138</p>
+    <p>&copy; email: blackspacetmm@gmail.com</p>
+    <p>&copy; 2025 IT Portfolio. All rights reserved.</p>
+  </footer>
 </body>
 </html>
