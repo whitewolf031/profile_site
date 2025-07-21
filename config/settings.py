@@ -27,7 +27,6 @@ INSTALLED_APPS = [
 
 INSTALLED_APPS += [
     'core',
-    'profile_admin',
     "rest_framework",
     'django_filters',
     'corsheaders'

@@ -11,6 +11,25 @@
       color: white;
     }
 
+    .ul1 {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+}
+
+.ul1 li a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.ul1 li a:hover {
+  color: cyan;
+}
+
     nav {
       padding: 20px 60px;
       display: flex;
@@ -223,3 +242,24 @@ footer {
       from { opacity: 0; }
       to { opacity: 1; }
     }
+
+
+/* button */
+.resume-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: cyan;
+  color: #1e1e24;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  box-shadow: 0 0 15px cyan;
+  transition: 0.3s ease;
+  margin-top: 15px;
+}
+
+.resume-btn:hover {
+  background-color: #00ffff;
+  box-shadow: 0 0 25px cyan;
+  transform: scale(1.05);
+}
